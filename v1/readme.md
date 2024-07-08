@@ -16,12 +16,13 @@ Untuk menggunakan API ini, Anda perlu mengatur dan mempublikasikan skrip Apps Sc
 ### Menambahkan AppsScript
 - Buka Google Sheets.
 - Klik pada **Extensions > Apps Script**.
-- Salin dan tempelkan script ke editor script.
+- Salin dan tempelkan script **api.js** ke editor script.
 - Simpan script tersebut.
 - Publikasikan script sebagai web app melalui **Deploy > New deployment** dan ikuti langkah-langkah untuk mendapatkan URL web app.
 
 ### Contoh url yang benar
 - SCRIPT_ID: **abcdefghijklmn**
+  
     ```
     https://script.google.com/macros/s/abcdefghijklmn/exec?action=get&sheet=Sheet1
     ```

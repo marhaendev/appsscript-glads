@@ -2,16 +2,29 @@
 
 ## Deskripsi
 Dokumentasi ini menjelaskan API yang digunakan untuk mengakses dan mengelola data di Google Spreadsheet menggunakan Google Apps Script.
-GLADS ialah singkatan dari Get Login Append Delete Set 
+GLADS ialah singkatan dari 
+Get Login Append Delete Set 
 ## Daftar Isi
 - [Instalasi Kode AppScript](#instalasi-kode-appscript)
 - [Semua Endpoint](#semua-endpoint)
 - [Contoh Tabel Spreadsheet](#contoh-tabel-spreadsheet)
 - [Endpoint Berdasarkan Contoh dan Responsenya](#endpoint-berdasarkan-contoh-dan-responsenya)
-- [Coffee Me](#coffee-me)
+- [Contact](#contact)
 
 ## Instalasi Kode AppScript
 Untuk menggunakan API ini, Anda perlu mengatur dan mempublikasikan skrip Apps Script di Google Spreadsheet Anda.
+### Menambahkan AppsScript
+- Buka Google Sheets.
+- Klik pada **Extensions > Apps Script**.
+- Salin dan tempelkan script ke editor script.
+- Simpan script tersebut.
+- Publikasikan script sebagai web app melalui **Deploy > New deployment** dan ikuti langkah-langkah untuk mendapatkan URL web app.
+
+### Contoh url yang benar
+- SCRIPT_ID: **abcdefghijklmn**
+    ```
+    https://script.google.com/macros/s/abcdefghijklmn/exec?action=get&sheet=Sheet1
+    ```
 
 ## Semua Endpoint
 
@@ -172,9 +185,5 @@ Berikut adalah beberapa contoh penggunaan endpoint dengan data dari spreadsheet 
    }
    ```
 
-## Coffee Me
-Untuk informasi lebih lanjut atau pertanyaan, jangan ragu untuk menghubungi kami di support@coffee-me.com.
-
----
-
-Silakan gunakan dokumentasi ini sebagai panduan untuk mengimplementasikan dan menguji endpoint yang telah dibuat dalam proyek Anda.
+## Contact
+Untuk informasi lebih lanjut atau pertanyaan, jangan ragu untuk menghubungi [marhaendev.com](mailto:marhaendev.com).
